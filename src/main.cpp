@@ -172,14 +172,14 @@
 #define TFTFILE     "/Arduino/ESP32-Radio.tft"          // Binary file name for update NEXTION image
 //
 // Define type of local filesystem(s).  See documentation.
-#define CH376                          // For CXH376 support (reading files from USB stick)
-#define SDCARD                         // For SD card support (reading files from SD card)
+// #define CH376                          // For CXH376 support (reading files from USB stick)
+// #define SDCARD                         // For SD card support (reading files from SD card)
 // Define (just one) type of display.  See documentation.
-#define BLUETFT                        // Works also for RED TFT 128x160
+// #define BLUETFT                        // Works also for RED TFT 128x160
 //#define OLED1306                     // 64x128 I2C OLED SSD1306
 //#define OLED1309                     // 64x128 I2C OLED SSD1309
 //#define OLED1106                     // 64x128 I2C OLED SH1106
-//#define DUMMYTFT                     // Dummy display
+#define DUMMYTFT                     // Dummy display
 //#define LCD1602I2C                   // LCD 1602 display with I2C backpack
 //#define LCD2004I2C                   // LCD 2004 display with I2C backpack
 //#define ILI9341                      // ILI9341 240*320

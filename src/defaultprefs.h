@@ -58,7 +58,7 @@ pin_enc_sw = 27                                      # GPIO Pin number for rotar
 pin_tft_cs = 15                                      # GPIO Pin number for TFT "CS"
 pin_tft_dc = 2                                       # GPIO Pin number for TFT "DC"
 #
-pin_sd_cs = 21                                       # GPIO Pin number for SD card "CS"
+pin_sd_cs = 22                                       # GPIO Pin number for SD card "CS"
 #
 pin_vs_cs = 5                                        # GPIO Pin number for VS1053 "CS"
 pin_vs_dcs = 32                                      # GPIO Pin number for VS1053 "DCS"
